@@ -1,54 +1,156 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Ecommerce Website</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style.css" />
     <!-- Box Icons -->
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-</head>
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
 
-<body>
+  <body>
     <!-- Navbar -->
     <header>
-        <!-- Nav -->
-        <div class="nav container">
-            <!-- Logo -->
-            <a href="#" class="logo">Ecommerce</a>
-            <!-- Cart Icon -->
-            <i class='bx bxs-shopping-bag' id="cart-icon" data-quantity="0"></i>
-            <!-- Cart -->
-            <div class="cart">
-                <h2 class="cart-title">Your Cart</h2>
-                <!-- Content -->
-                <div class="cart-content">
-                    <div class="cart-box">
-                        <img src="img/product1.jpeg" alt="" class="cart-img">
-                        <div class="detail-box">
-                            <div class="cart-product-title">Product Shirt</div>
-                            <div class="cart-price">$50</div>
-                            <input type="number" name="" id="" value="1" class="cart-quantity">
-                        </div>
-                        <!-- Remove Item -->
-                        <i class='bx bx-trash-alt cart-remove' ></i>
-                    </div>
-                </div>
-                <!-- Total -->
-                <div class="total">
-                    <div class="total-title">Total</div>
-                    <div class="total-price">$0</div>
-                </div>
-                <!-- Buy Button -->
-                <button type="button" class="btn-buy">Pay Now</button>
-                <!-- Close Cart -->
-                <i class='bx bx-x' id="close-cart"></i>
+      <!-- Nav -->
+      <div class="nav container">
+        <!-- Logo -->
+        <a href="#" class="logo">Ecommerce</a>
+        <!-- Cart Icon -->
+        <i class="bx bxs-shopping-bag" id="cart-icon" data-quantity="0"></i>
+        <!-- Cart -->
+        <div class="cart">
+          <h2 class="cart-title">Your Cart</h2>
+          <!-- Content -->
+          <div class="cart-content">
+            <div class="cart-box">
+              <img src="img/product1.jpeg" alt="" class="cart-img" />
+              <div class="detail-box">
+                <div class="cart-product-title">Product Shirt</div>
+                <div class="cart-price">$50</div>
+                <input
+                  type="number"
+                  name=""
+                  id=""
+                  value="1"
+                  class="cart-quantity"
+                />
+              </div>
+              <!-- Remove Item -->
+              <i class="bx bx-trash-alt cart-remove"></i>
             </div>
+          </div>
+          <!-- Total -->
+          <div class="total">
+            <div class="total-title">Total</div>
+            <div class="total-price">$0</div>
+          </div>
+          <!-- Buy Button -->
+          <button type="button" class="btn-buy">Pay Now</button>
+          <!-- Close Cart -->
+          <i class="bx bx-x" id="close-cart"></i>
         </div>
+      </div>
     </header>
+    <!-- Products -->
+    <section class="shop container">
+      <h2 class="section-title">Shop Products</h2>
+      <!-- Shop Content -->
+      <div class="shop-content">
+        <!-- Box 1 -->
+        <div class="product-box">
+          <img
+            src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjy0dcakszV-_uYIk-wn_qJ8UUzA_S64Ld4EPuq26QLG-Ilj3PXIAOw6_bG24qYY6isJ9pbYCjNQ71a_VSvL2x89Wre0WglROnj5-tfFcW54girwA8AKpUKWQZHQy0cl2a_exT85y34RFteTFkmqMUevWCFuA_SWH_19Klt92orSQ60n9_nN1r9E0nAtr1C/s320/product1.jpeg"
+            alt=""
+            class="product-img"
+          />
+          <h2 class="product-title">ADICOLOR SEASONAL</h2>
+          <span class="price">$50</span>
+          <i class='bx bx-shopping-bag add-cart'></i>
+        </div>
+        <!-- Box 2 -->
+        <div class="product-box">
+            <img
+              src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhUKU2NtEGPG8AQlm741tgjDSi5tV4Hcw0fuoFUFLopnXAYxhZpA-Fn4JpzOlJ1-eV6PhUSyQC5kVAT-Ov7fZjqbgHMplJlqR4rR-YmNtyGhTh10Rw1ix_UdY-vN-6uvFhLcphpc6qp42rZDqyvLC8lt9VBCcGYHETx81hDWsf3LG2fYmwb0FD3c7WqKfGF/s320/product2.jpeg"
+              alt=""
+              class="product-img"
+            />
+            <h2 class="product-title">SATURDAY BACKPACK</h2>
+            <span class="price">$70.99</span>
+            <i class='bx bx-shopping-bag add-cart'></i>
+          </div>
+          <!-- Box 3 -->
+        <div class="product-box">
+            <img
+              src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjp-zi_LuHwPCNsTTI3SJtkiSNN9GgTyZDdjamU0meK97lvrBORePU5DMQPnjupbhj8XYa_jgSh5W04y-okq_D07Jq1N4Dr2qBaXMiZ2O9Ko8jjn6OSb0nMxa2f-MBuSPYYf0d2AYJwqQ5t7MtG44THCrlRwiPDupFKk9qcoWfgIHXx-Azpoh14a8v8lIPI/s320/product3.jpeg"
+              alt=""
+              class="product-img"
+            />
+            <h2 class="product-title">ULTIMATE HAT</h2>
+            <span class="price">$24.99</span>
+            <i class='bx bx-shopping-bag add-cart'></i>
+          </div>
+          <!-- Box 4 -->
+        <div class="product-box">
+            <img
+              src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi1I_2QhQjUCtshfiDvj9m88f4XCA4xaKhNwZkCGhddiUqYFeGFISDQXdx4uy0kNFvhDL7Z3_bqX81VBZh5cDW-ZtdP8mNZP45wTKdjT3EiA9Uif_QO3fv7a4qzygNq87ouInI0VdCPVeW7LlMSQTqGglLsf8yC5MBnGgirVoQoqDGbwN6bnlIg4PPHVHhr/s320/product4.jpeg"
+              alt=""
+              class="product-img"
+            />
+            <h2 class="product-title">MESSI GOAT TEE</h2>
+            <span class="price">$100</span>
+            <i class='bx bx-shopping-bag add-cart'></i>
+          </div>
+          <!-- Box 5 -->
+        <div class="product-box">
+            <img
+              src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEis4fyGcqM0Cv9OZDqk4KrC4WfkcmHB90IxzhPhiL6JkNW_SQh1LwE4zbiJLuh0118YeVn1jJL05ZYR5_BfItZC1xnYFDfROWdzB7qtAoXoGR7x7uSC0wtpqZINkcVJx_e4bXNt1XOS5GHjtVu9R9TmhLmKNJNNnSW8rKOh5rLL1iWxMOUalWcotw5v1BqL/s320/product5.jpeg"
+              alt=""
+              class="product-img"
+            />
+            <h2 class="product-title">ADICOLOR HOODIE</h2>
+            <span class="price">$74</span>
+            <i class='bx bx-shopping-bag add-cart'></i>
+          </div>
+          <!-- Box 6 -->
+        <div class="product-box">
+            <img
+              src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiTlCuTOckThAMpR6bSaVrXqn-cJXLlJUfHRlAcYnV9gojIJlch_7AfU2lNMdYChdPMGYbxybo29jmdAvkz0VHH0wo-4xbjjm87m3zQsXEHNJuJzanRbXki5ifku-v57RgZ4cl7amNPJFKJKvPY2UiEBdNOyLC-6ozIJSMe0REqvR6K6Fsx-lWWETY97gnM/s320/product6.jpeg"
+              alt=""
+              class="product-img"
+            />
+            <h2 class="product-title">ADIDAS EARBUDS</h2>
+            <span class="price">$200</span>
+            <i class='bx bx-shopping-bag add-cart'></i>
+          </div>
+          <!-- Box 7 -->
+        <div class="product-box">
+            <img
+              src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgWomCOqqY62Ypzp8_kfVtkw6FHgqns0fhQmbZK4IV0RAUn2qn5me8Pip22PevpxShj35WP-EN4rqsM_b7L7QHoTZPoymFxKMwaAT8xL8jwSfOFBGVH2MmwaeHu_GuReKLFzg1XLHcBVmhY3th39czg67TTHHt4WRtgnRao-YrzOhSBf6KQUQYXiSmui-tV/s320/product7.jpeg"
+              alt=""
+              class="product-img"
+            />
+            <h2 class="product-title">METAL BOTTLE 1L</h2>
+            <span class="price">$80</span>
+            <i class='bx bx-shopping-bag add-cart'></i>
+          </div>
+          <!-- Box 8 -->
+        <div class="product-box">
+            <img
+              src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEheV9DmLLOFOnhQ7VAxhIpYEva7vlTVIGmEUiVNBo5P0EUah9OqH4qiLLculhYM5MkQixOyVXUAZXqF3X0-5u5o2eur4R3o_b_z4uMGJ1mQKh0ifgIHjRvGxm24bhAFjMjBn6iACuL-R0bvm4-NLFRF7J_VLOons0-uy3w9YfbcGm9TmPVnIYfgKLvjjbpv/s320/product8.jpeg"
+              alt=""
+              class="product-img"
+            />
+            <h2 class="product-title">ULTRABOOST SHOES</h2>
+            <span class="price">$270</span>
+            <i class='bx bx-shopping-bag add-cart'></i>
+          </div>
+      </div>
+    </section>
     <!-- Link To JS -->
     <script src="js/main.js"></script>
-</body>
-
+  </body>
 </html>

@@ -312,3 +312,47 @@ header {
     font-size: 1rem;
     font-weight: 500;
 }
+
+/* Making Responsive */
+@media (maxwidth: 1080px) {
+    .nav {
+        padding: 14px 0;
+    }
+
+    section {
+        padding: 3rem 0 2rem;
+    }
+
+    .container {
+        margin: 0 auto;
+        width: 90%;
+    }
+
+    .shop {
+        margin-top: 2rem !important;
+    }
+}
+
+@media (maxwidth: 400px) {
+    .nav {
+        padding: 12px 0;
+    }
+
+    .logo {
+        font-size: 1rem;
+    }
+
+    .cart {
+        width: 320px;
+    }
+}
+
+@media (maxwidth: 360px) {
+    .shop {
+        margin-top: 1rem !important;
+    }
+
+    .cart {
+        width: 100%;
+    }
+}

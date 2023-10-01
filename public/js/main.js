@@ -50,6 +50,7 @@ function removeCartItem(event) {
     buttonClicked.parentElement.remove();
     updateTotal();
     saveCartItems();
+    updateCartIcon();
 }
 
 // Quantity Change
